@@ -15,7 +15,7 @@ jobs:
     - name: Run Python script
       uses: actions/checkout@v2
     - run: |
-          output=$(python .github/workflows/code.py)
+          output=$(python code.py)
           echo "::set-output name=result::$output"
       id: step1
     - name: Print result
