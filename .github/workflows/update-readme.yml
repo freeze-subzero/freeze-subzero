@@ -15,8 +15,7 @@ jobs:
     - name: Run Python script
       uses: actions/checkout@v4
     - run: |
-          output=$(python code.py)
-          
+          python code.py
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
