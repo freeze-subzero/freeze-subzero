@@ -5,7 +5,7 @@ from pathlib import Path
 month = datetime.now().month
 day = datetime.now().day
 year = datetime.now().year
-calculation = round(((((month-1)*(365/12)) + day)/365)* 100, 2)
+calculation = round(((((month-1)*(365/12)) + day)/365)* 100, 1)
 
 if calculation > 100: #Solves a rounding error above 100
     calculation = 100
