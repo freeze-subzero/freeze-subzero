@@ -19,4 +19,5 @@ print(f"{year} is {calculation}% complete! {''.join(progress_bar)}")
 
 
 with open('README.md', 'w') as file:
+    print("Done!")
     file.write(f"# Hello there! 👋\n\n⌨️ I'm currently learning Python, HTML, CSS and Javascript.\n\n## Year progress bar\n\n📅 {year} is {calculation}% complete!\n\n{''.join(progress_bar)}")
