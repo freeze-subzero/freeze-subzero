@@ -9,11 +9,11 @@ jobs:
     name: Update the README file
     runs-on: ubuntu-latest
     steps: 
-    - name: Run Python script
-      - run: |
-          output=$(python code.py)
-          echo "::set-output name=result::$output"
-        id: step1
-    - name: Print result
-      run: echo "${{ steps.step1.outputs.result}}"
+      - name: Run Python script
+        - run: |
+            output=$(python code.py)
+            echo "::set-output name=result::$output"
+          id: step1
+      - name: Print result
+        run: echo "${{ steps.step1.outputs.result}}"
 
