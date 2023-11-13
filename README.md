@@ -1,9 +1,9 @@
-# Hello there! 👋
+## Hello there! 👋
 
 ⌨️ I'm currently learning Python, HTML, CSS and Javascript.
 
-## Year progress bar
+# Year progress bar
 
-📅 2023 is **87%** complete!
+📅 2023 is 87% complete!
 
-🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜
+▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▯▯▯
