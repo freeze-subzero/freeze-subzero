@@ -15,6 +15,7 @@ jobs:
     - name: Run Python script
       uses: actions/checkout@v2
     - run: |
+          python code.py
           output=$(python code.py)
           echo "::set-output name=result::$output"
       id: step1
