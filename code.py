@@ -18,8 +18,5 @@ for i in range(1,21):
 
 print(f"{year} is {calculation}% complete! {''.join(progress_bar)}")
 
-if not os.path.exists('./test'):
-    os.makedirs('./test')
-
-with open('./test/README.md', 'w') as file:
+with open('README.md', 'w') as file:
     file.write(f"# Hello there! 👋\n\n⌨️ I'm currently learning Python, HTML, CSS and Javascript.\n\n## Year progress bar\n\n📅 {year} is {calculation}% complete!\n\n{''.join(progress_bar)}")
