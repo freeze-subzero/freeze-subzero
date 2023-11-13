@@ -5,7 +5,7 @@ from pathlib import Path
 month = datetime.now().month
 day = datetime.now().day
 year = datetime.now().year
-calculation = round(((((month-1)*30.416666667) + day)/365)* 100)
+calculation = round(((((month-1)*30.416666667) + day)/365)* 100, 1)
 
 progress_bar = []
 
