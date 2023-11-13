@@ -14,4 +14,4 @@ for i in range(1,21):
     if percentage > calculation:
         progress_bar.append("⬜")
 
-print(f"{year} is {calculation}% complete!\n{''.join(progress_bar)}")
+print(f"{year} is {calculation}% complete!{''.join(progress_bar)}")
