@@ -7,13 +7,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Update the README file
+    name: Update the README file      
     steps: 
     - name: Run Python script
-      - run: |
+      uses: actions/checkout@v2
+    - run: |
           output=$(python code.py)
           echo "::set-output name=result::$output"
-        id: step1
+      id: step1
     - name: Print result
       run: echo "${{ steps.step1.outputs.result}}"
 
