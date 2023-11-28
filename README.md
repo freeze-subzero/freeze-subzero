@@ -4,6 +4,6 @@
 
 ## Year progress bar
 
-📅 2023 is 90.7% complete!
+📅 2023 is 91.0% complete!
 
 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬛⬛
